@@ -568,4 +568,30 @@ section {
 footer {
     padding: 22px;
 }
+    @media screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
