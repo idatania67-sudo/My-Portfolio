@@ -743,9 +743,6 @@ footer {
     .project-image {
         height: 180px !important;
     }
-    @media screen and (max-width: 760px) {
-    body {
-        background: red !important;
-    }
+   
 }
 }
